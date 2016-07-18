@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Comentando
         btnCamara = (Button) findViewById(R.id.btnCamara);
         btnQR = (Button) findViewById(R.id.btnQR);
         btnLocalizacion = (Button) findViewById(R.id.btnLocalizacion);
